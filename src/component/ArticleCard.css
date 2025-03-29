@@ -1,0 +1,89 @@
+
+/* Heading css */
+.header-container {
+  text-align: center;
+  padding: 30px 20px;
+  background: white; /* Clean white background */
+  color: #333; /* Dark text for contrast */
+  border: 4px solid #00a8a8; /* Teal border frame */
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0, 168, 168, 0.3); /* Soft shadow in teal */
+}
+
+.header-title {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.highlight {
+  color: #00a8a8; /* Teal color for emphasis */
+}
+
+.header-subtitle {
+  font-size: 16px;
+  margin-top: 8px;
+  color: #555;
+  opacity: 0.9;
+}
+/* heading css */
+
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    padding: 20px 100px;
+  }
+  
+  .article-card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    height: 400px;
+  }
+  
+  .article-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .article-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .article-content {
+    margin-top: 20px;
+    padding: 15px;
+  }
+  
+  .article-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .article-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .read-more {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #00a8a8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .read-more:hover {
+    background: #0056b3;
+  }
+  

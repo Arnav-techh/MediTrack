@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. Raj Sharma",
+      "specialization": "Addiction Counselor",
+      "phone": "+919876543210",
+      "whatsapp": "https://wa.me/919876543210",
+      "image": "/images/doctor.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Neha Verma",
+      "specialization": "Mental He+alth Therapist",
+      "phone": "+919876543211",
+      "whatsapp": "https://wa.me/919876543211",
+      "image": "/images/doctor.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Akash Mehta",
+      "specialization": "Rehabilitation Specialist",
+      "phone": "+919876543212",
+      "whatsapp": "https://wa.me/919876543212",
+      "image": "/images/doctor.jpg"
+    }
+  ]
+  
